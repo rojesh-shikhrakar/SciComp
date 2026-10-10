@@ -1,0 +1,34 @@
+[book]
+title = "Scientific Computation"
+authors = ["Rojesh Man Shikhrakar"]
+language = "en"
+
+[output.html]
+mathjax-support = true
+fold.enable = true
+fold.level = 1
+smart-punctuation = true
+definition-lists = true
+admonitions = true
+git-repository-url = "https://github.com/rojesh-shikhrakar/SciComp"
+git-repository-icon = "fab-github"
+input-404 = "not-found.md"
+
+[output.html.search]
+limit-results = 20
+use-boolean-and = true
+boost-title = 2
+boost-hierarchy = 2
+boost-paragraph = 1
+expand = true
+heading-split-level = 3
+
+[output.html.print]
+enable = true
+page-break = true
+
+[output.html.playground]
+editable = false
+copyable = true 
+line-numbers = true
+runnable = true   
